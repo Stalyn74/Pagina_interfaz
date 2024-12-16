@@ -1,0 +1,142 @@
+/* Estilos generales del contenedor */
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del título */
+h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Estilo para cada grupo de formulario */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Estilo de las etiquetas de los campos */
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #555;
+  font-size: 16px;
+}
+
+/* Estilos para los campos de entrada (input, select, textarea) */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box; /* Para que padding no afecte el ancho */
+  transition: all 0.3s ease;
+}
+
+/* Estilo para los campos de entrada en foco */
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
+}
+
+/* Evitar que el textarea se redimensione */
+textarea {
+  resize: vertical;
+  min-height: 120px;
+  line-height: 1.5; /* Para mejorar la legibilidad */
+}
+
+/* Estilo para los checkbox */
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #555;
+}
+
+.checkbox-group input {
+  margin-right: -250px;
+}
+
+
+
+/* Efecto para el botón cuando está deshabilitado */
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+/* Estilo para el botón deshabilitado en hover */
+button:disabled:hover {
+  background-color: #ccc;
+  transform: none;
+}
+
+/* Espaciado general para los elementos dentro del formulario */
+.container * {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para pantallas pequeñas (responsive) */
+@media (max-width: 480px) {
+  .container {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  input,
+  select,
+  textarea {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 35px;
+  background-color: #000000; 
+  color: white;
+  border: 2px solid #ffd900; 
+  border-radius: 150px; 
+  cursor: pointer;
+  font-size: 20px; 
+  font-weight: bold; 
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+button:hover {
+  background-color: #caee00; 
+  color: #000000;
+  border-color: #000000;
+  transform: scale(1.05);
+}

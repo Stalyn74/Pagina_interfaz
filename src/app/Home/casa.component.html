@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vista Principal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/primeflex/3.3.0/primeflex.min.css">
+</head>
+
+<body>
+    <h1>Vista Principal</h1>
+    <h2 align="center">Jonathan Chisaguano 3"A"</h2>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bloque alineado en la mitad  s-->
+<div class="flex align-items-center justify-content-center">
+    <div class="block w-20rem h-10rem custom-bg text-black font-bold flex align-items-center justify-content-center p-4 border-round">1</div>
+</div>
+
+<!--Bloques alineados a los lados-->
+<div class="flex justify-content-between w-full mt-4">
+    <div class="block w-11rem h-10rem custom-bg1 text-white font-bold flex align-items-center justify-content-center p-4 border-round">2</div>
+    <div class="block w-11rem h-10rem custom-bg1 text-white font-bold flex align-items-center justify-content-center p-4 border-round">3</div>
+</div>
+
+<!-- fila de 8 bloques en el centro -->
+    <div class="flex flex-wrap justify-start justify-content-center w-full mt-4 gap-5">
+        <div class="block w-10rem h-10rem custom-bg2 text-white font-bold flex align-items-center justify-center p-7 border-round mb-3 lg:w-8.5rem md:w-8rem sm:w-6rem">4</div>
+        <div class="block w-10rem h-10rem custom-bg2 text-white font-bold flex align-items-center justify-center p-7 border-round mb-3 lg:w-8.5rem md:w-8rem sm:w-6rem">5</div>
+        <div class="block w-10rem h-10rem custom-bg2 text-white font-bold flex align-items-center justify-center p-7 border-round mb-3 lg:w-8.5rem md:w-8rem sm:w-6rem">6</div>
+        <div class="block w-10rem h-10rem custom-bg2 text-white font-bold flex align-items-center justify-center p-7 border-round mb-3 lg:w-8.5rem md:w-8rem sm:w-6rem">7</div>
+        <div class="block w-10rem h-10rem custom-bg2 text-white font-bold flex align-items-center justify-center p-7 border-round mb-3 lg:w-8.5rem md:w-8rem sm:w-6rem">8</div>
+        <div class="block w-10rem h-10rem custom-bg2 text-white font-bold flex align-items-center justify-center p-7 border-round mb-3 lg:w-8.5rem md:w-8rem sm:w-6rem">9</div>
+        <div class="block w-10rem h-10rem custom-bg2 text-white font-bold flex align-items-center justify-center p-7 border-round mb-3 lg:w-8.5rem md:w-8rem sm:w-6rem">10</div>
+        <div class="block w-10rem h-10rem custom-bg2 text-white font-bold flex align-items-center justify-center p-7 border-round mb-3 lg:w-8.5rem md:w-8rem sm:w-6rem">11</div>
+    </div>
+
+<!-- bloque alineado a la derecha  -->
+<div class="flex justify-content-end w-full mt-4">
+    <div class="block w-15rem h-10rem custom-bg3 text-black font-bold flex align-items-center justify-content-center p-4 border-round">12</div>
+</div>
+
+<!-- Dos bloques mas a los lados -->
+<div class="flex justify-content-between w-full mt-4">
+    <div class="block w-11rem h-10rem custom-bg4 text-white font-bold flex align-items-center justify-content-center p-4 border-round">13</div>
+    <div class="block w-11rem h-10rem custom-bg4 text-white font-bold flex align-items-center justify-content-center p-4 border-round">14</div>
+</div>
+
+<!-- Bloque al final en la mitad-->
+<div class="flex align-items-center justify-content-center mt-4">
+    <div class="block w-20rem h-10rem custom-bg5 text-white font-bold flex align-items-center justify-content-center p-4 border-round">15</div>
+</div>
+<br>
+
+    <!-- Tarjetas de juegos -->
+    <div class="card-container flex flex-wrap justify-content-center gap-4 mt-6">
+        <p-card align="center" header="Hollow Night" subheader="Al 97% le gustó este videojuego" [style]="{ width: '300px' }">
+            <ng-template pTemplate="header">
+                <img alt="Card" src="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000003208/4643fb058642335c523910f3a7910575f56372f612f7c0c9a497aaae978d3e51" />
+            </ng-template>
+            <p>El videojuego cuenta la historia del Caballero, en su búsqueda para descubrir los secretos del largamente abandonado reino de Hallownest.</p>
+            <ng-template pTemplate="footer">
+                <div class="flex justify-content-center align-items-center mt-1">
+                    <p-button label="Top 1 Indies" severity="success" styleClass="w-full p-3 text-xl font-bold border-round shadow-lg"></p-button>
+                </div>
+            </ng-template>
+        </p-card>
+
+        <p-card align="center" header="Resident Evil 4" subheader="Al 95% le gustó este videojuego" [style]="{ width: '300px' }">
+            <ng-template pTemplate="header">
+                <img alt="Card" src="https://image.api.playstation.com/vulcan/ap/rnd/202210/0706/EVWyZD63pahuh95eKloFaJuC.png" />
+            </ng-template>
+            <p>Seis años después de los eventos de Resident Evil 2, Leon Kennedy se encuentra investigando la desaparición de la hija del presidente de los Estados Unidos.</p>
+            <ng-template pTemplate="footer">
+                <div class="flex justify-content-center align-items-center mt-1">
+                    <p-button label="El mejor de la saga" severity="success" styleClass="w-full p-3 text-xl font-bold border-round shadow-lg"></p-button>
+                </div>
+            </ng-template>
+        </p-card>
+
+        <p-card align="center" header="Need for Speed Heat" subheader="Al 92% le gustó este videojuego" [style]="{ width: '300px' }">
+            <ng-template pTemplate="header">
+                <img alt="Card" src="https://i.ytimg.com/vi/9ewiJJe_nYI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCoNIjBmgVu4jJQtQghSCy57YitOg" />
+            </ng-template>
+            <p>Domina la oscuridad, persigue la luz. Ve al límite en el Speedhunters Showdown y compite para ganar fondos en eventos de carrera.</p>
+            <ng-template pTemplate="footer">
+                <div class="flex justify-content-center align-items-center mt-1">
+                    <p-button label="Goty" severity="success" styleClass="w-full p-3 text-xl font-bold border-round shadow-lg"></p-button>
+                </div>
+            </ng-template>
+        </p-card>
+
+        <p-card align="center" header="Subnautica" subheader="Al 97% le gustó este videojuego" [style]="{ width: '300px' }">
+            <ng-template pTemplate="header">
+                <img alt="Card" src="https://unknownworlds.com/_next/image?url=https%3A%2F%2Fd17c72h1ypygg7.cloudfront.net%2Fsubnautica_2_keyart_banner_website_1449dc469b.jpg&w=3840&q=75" />
+            </ng-template>
+            <p>Desciende a las profundidades de un enorme planeta alienígena submarino. Explora un océano alienígena en esta aventura de supervivencia.</p>
+            <ng-template pTemplate="footer">
+                <div class="flex justify-content-center align-items-center mt-1">
+                    <p-button label="Talasofobia" severity="success" styleClass="w-full p-3 text-xl font-bold border-round shadow-lg"></p-button>
+                </div>
+            </ng-template>
+        </p-card>
+    </div>
+    <br>
+    <div class="container">
+      <h2>Formulario de Contacto</h2>
+      <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+        <!-- Agrupación de Nombre y Apellido -->
+        <div class="form-row flex align-items-center gap-3">
+          <div class="form-group flex-1">
+            <label for="firstName">Nombre:</label>
+            <input
+              type="text"
+              id="firstName"
+              formControlName="firstName"
+              placeholder="Ingresa tu nombre"
+            />
+          </div>
+    
+          <div class="form-group flex-1">
+            <label for="lastName">Apellidos:</label>
+            <input
+              type="text"
+              id="lastName"
+              formControlName="lastName"
+              placeholder="Ingresa tus apellidos"
+            />
+          </div>
+        </div>
+    
+        <div class="form-group">
+          <label for="email">Correo Electrónico:</label>
+          <input
+            type="email"
+            id="email"
+            formControlName="email"
+            placeholder="Ingresa tu correo electrónico"
+          />
+        </div>
+    
+        <div class="form-group">
+          <label for="cedula">Cédula:</label>
+          <input
+            type="text"
+            id="cedula"
+            formControlName="cedula"
+            placeholder="Ingresa tu cédula"
+          />
+        </div>
+    
+        <div class="form-group">
+          <label for="direccion">Dirección:</label>
+          <input
+            type="text"
+            id="direccion"
+            formControlName="direccion"
+            placeholder="Ingresa tu dirección"
+          />
+        </div>
+    
+        <div class="form-group">
+          <label for="gender">Género:</label>
+          <select id="gender" formControlName="gender">
+            <option value="">Seleccione una opción</option>
+            <option value="male">Masculino</option>
+            <option value="female">Femenino</option>
+            <option value="other">Otro</option>
+          </select>
+        </div>
+    
+        <div class="form-group">
+          <label for="message">Info. adicional:</label>
+          <textarea
+            id="message"
+            rows="4"
+            formControlName="message"
+            placeholder="Escribe tu mensaje aquí"
+          ></textarea>
+        </div>
+    
+        <div class="form-group checkbox-group">
+          <label>
+            <input type="checkbox" formControlName="agree" />
+            Acepto los términos y condiciones
+          </label>
+        </div>
+    
+        <div class="contenedor">
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+    </div>
+<br>
+<p-carousel
+  [value]="products"
+  [numVisible]="3"
+  [numScroll]="1"
+  [responsiveOptions]="responsiveOptions"
+  [circular]="true">
+  <ng-template let-product pTemplate="item">
+    <div class="product-item p-4 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+      <!-- Imagen del producto -->
+      <div class="mb-4 overflow-hidden rounded-lg">
+        <img 
+          [src]="product.image" 
+          [alt]="product.name" 
+          class="w-full h-60 object-cover object-center rounded-lg"
+        />
+      </div>
+
+      <!-- Detalles del producto -->
+      <div class="product-detail text-center">
+        <h4 class="text-xl font-semibold text-gray-800 mb-2">{{ product.name }}</h4>
+        <p class="text-lg text-gray-600 mb-3">${{ product.price }}</p>
+
+        <!-- Estado del inventario -->
+        <p-tag 
+          [value]="product.inventoryStatus"
+          [severity]="getSeverity(product.inventoryStatus)"
+          class="mb-3"
+        ></p-tag>
+
+        <!-- Botones de acción -->
+        <div class="flex justify-center space-x-4">
+          <p-button icon="pi pi-heart" severity="secondary" [outlined]="true" class="p-button-rounded p-button-outlined" />
+          <p-button icon="pi pi-shopping-cart" styleClass="p-button-rounded p-button-outlined" class="ml-2" />
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</p-carousel>    
+</body>
+
+</html>
