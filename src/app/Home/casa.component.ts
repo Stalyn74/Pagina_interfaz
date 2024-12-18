@@ -27,37 +27,37 @@ export class CASAComponent {
   products = [
     { 
       name: 'Top 1 Ventas', 
-      price: 100, 
+      price: 30, 
       inventoryStatus: 'In Stock', 
       image: 'https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/552520/capsule_616x353.jpg?t=1694554810'
     },
     { 
       name: 'Top 2 Ventas', 
-      price: 150, 
-      inventoryStatus: 'Out of Stock', 
+      price: 20, 
+      inventoryStatus: 'In Stock', 
       image: 'https://image.api.playstation.com/vulcan/ap/rnd/202206/0311/cp7G7TILGKzAzLGb1MMn9hyt.jpg'
     },
     { 
       name: 'Top 3 Ventas', 
-      price: 200, 
+      price: 15, 
       inventoryStatus: 'In Stock', 
       image: 'https://www.desconsolados.com/wp-content/uploads/2014/02/Outlast1376438305_1380640487.jpg'
     },
     { 
       name: 'Top 4 Ventas', 
-      price: 100, 
+      price: 25, 
       inventoryStatus: 'In Stock', 
       image: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1262540/capsule_616x353.jpg?t=1716834386'
     },
     { 
       name: 'Top 5 Ventas', 
-      price: 100, 
+      price: 15, 
       inventoryStatus: 'In Stock', 
       image: 'https://image.api.playstation.com/vulcan/ap/rnd/202303/0116/90966f8c33926d1ffd144b560322873f9435f480d29606d8.jpg'
     },
     { 
       name: 'Top 6 Ventas', 
-      price: 100, 
+      price: 70, 
       inventoryStatus: 'In Stock', 
       image: 'https://pbs.twimg.com/media/Eu6wiobXAAIgZ-S.jpg:large'
     },
